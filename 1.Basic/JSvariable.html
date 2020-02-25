@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variable</title>
+    <!-- <script>
+        function abc(){
+            var x=10; // local variable
+            document.write("X = " + x); 
+        }
+    </script> -->
+
+    <script>
+        // function abcd(){
+        //     if (10<20){
+        //         var y=20; // local variable
+        //     }  
+        // }
+        var data = 10; // global variable
+        document.writeln("Variabel data = " + data + "<br>")
+            function a(){
+                document.writeln("Function A " + data + "<br>");
+            }
+            function b(){
+                document.writeln("Function B " + data);
+            }
+            a(); // panggil function
+            b();
+    </script>
+
+</head>
+<body>
+    <p>Variabel Lokal dan Variabel Global</p>
+    <!-- // <input type="button" value="Variabel Lokal 1" onclick="abc()"/>
+    // <input type="button" value="Variabel Lokal 2" onclick="abcd()"/> -->
+</body>
+</html>
