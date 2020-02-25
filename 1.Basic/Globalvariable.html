@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Variable</title>
 </head>
-<body>
-    <h1>Global variable</h1>
-    
-</body>
 <script>
     var value=50; // Global Variable
+    function a(){
+        alert(window.value);
+    }
+    function b(){
+        alert(value + 50);
+    }
     
 </script>
+<body>
+    <h1>Global variable</h1>
+    <input type="button" value="click A" onclick="a()"/>
+    <input type="button" value="click B" onclick="b()"/>
+</body>
+
 </html>
