@@ -1,14 +1,24 @@
-var a = 20;
-var b = "20 equals ";
+var grade = 'B';
+var result;
 function switchc(){
-        document.write(b + "<br>");
-    if(a==10){
-        document.write("a is equal to 10");
-    } else if(a==15){
-        document.write("a is equal to 15");
-    } else if(a==20){
-        document.write("a is equal to 20");
-    } else {
-        document.write("a is not equal 10, 15, or 20");
+    switch(grade){
+    case 'A':
+        result = "A grade";
+    break;
+    case 'B':
+        result = "B grade";
+    break;
+    case 'C':
+        result = "C grade";
+    break;
+    case 'D':
+        result = "D grade";
+    break;
+    case 'E':
+        result = "E grade";
+    break;
+    default: 
+    result = "Not Grade"
     }
+    document.write(grade + "<br>" + "Hasil Grade = " + result);
 }
