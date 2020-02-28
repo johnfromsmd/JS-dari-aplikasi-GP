@@ -10,7 +10,14 @@ function date3(){
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('txt').innerHTML=h+":"+m+":"+s;
-    setTimeout(() => {
-        
-    }, timeout);
+    setTimeout(function(){
+        getTime()
+    }, 1000);
+    // set interval ("getTime()", 1000); another way
+    function checkTime(i){
+        if(i<10){
+            i="0" + i;
+        }
+        return i;
+    }
 }   
