@@ -1,31 +1,23 @@
-function cn(){
-    document.writeln("<br/>navigator.appCodeName:" + navigator.appCodeName);
+function sw(){
+    document.writeln("<br/>sreen.width: " + screen.width);
 }
 
-function an(){
-    document.writeln("<br/>navigator.appName:" + navigator.appName);
+function sh(){
+    document.writeln("<br/>screen.height: " + screen.height);
 }
 
-function av(){
-    document.writeln("<br/>navigator.appVersion:" + navigator.appVersion);
+function aw(){
+    document.writeln("<br/>screen.availWidth: " + screen.availWidth);
 }
 
-function ce(){
-    document.writeln("<br/>navigator.cookieEnabled:" + navigator.cookieEnabled);
+function ah(){
+    document.writeln("<br/>screen.availHeight: " + screen.availHeight);
 }
 
-function lang(){
-    document.writeln("<br/>navigator.language:" + navigator.language);
+function cd(){
+    document.writeln("<br/>screen.colorDepth: " + screen.colorDepth);
 }
 
-function ua(){
-    document.writeln("<br/>navigator.userAgent:" + navigator.userAgent);
-}
-
-function plat(){
-    document.writeln("<br/>navigator.platform:" + navigator.platform);
-}
-
-function ol(){
-    document.writeln("<br/>navigator.onLine:" + navigator.onLine);
+function pd(){
+    document.writeln("<br/>screen.pixelDepth: " + screen.pixelDepth);
 }
