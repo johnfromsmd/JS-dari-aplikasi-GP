@@ -54,4 +54,3 @@ function validate2(){
         return status;
     }
     }
-}
