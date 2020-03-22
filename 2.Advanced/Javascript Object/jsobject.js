@@ -16,7 +16,13 @@ function io(){
 }
 
 function oc(){
-    
+    function emp(id, nama, gaji){
+        this.id = id;
+        this.nama = nama;
+        this.gaji = gaji;
+    }
+    e = new emp (3, "John Victory", 1000);
+    document.write(e.id+ " " + e.nama + " " + e.gaji);
 }
 
 function mjso(){
