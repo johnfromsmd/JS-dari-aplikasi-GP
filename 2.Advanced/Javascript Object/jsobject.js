@@ -8,7 +8,11 @@ function ob(){
 }
 
 function io(){
-    
+    var emp = new Object();
+    emp.id = 2;
+    emp.nama = "John doe";
+    emp.gaji = 2000;
+    document.write(emp.id + " " + emp.nama + " " + emp.gaji);
 }
 
 function oc(){
