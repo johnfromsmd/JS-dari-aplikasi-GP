@@ -1,19 +1,13 @@
-function op(){
-    function Employee(namaDepan, namaBelakang){
-        this.namaDepan = namaDepan;
-        this.namaBelakang = namaBelakang;
-    }
-
-    Employee.prototype.namalengkap = function(){
-        return this.namaDepan + " " + namaBelakang;
-    }
-
-    var emp1 = new Employee("John", "Haa");
-    var emp2 = new Employee("Dohn", "ny");
-    document.writeln(emp1.namalengkap() + "<br>");
-    document.writeln(emp2.namalengkap());
-}
-
 function op2(){
+    function Employee(firstName, lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
+    Employee.prototype.company = "Google";
+
+    var employee1 = new Employee("John", "John");
+    var employee2 = new Employee("Don", "don");
+    document.writeln(employee1.firstName + " " + employee1.lastName + " " + employee1.company + "<br>");
+    document.writeln(employee2.firstName + " " + employee2.lastName + " " + employee2.company);
 }
